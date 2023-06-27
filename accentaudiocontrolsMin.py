@@ -1,6 +1,5 @@
 import tkinter
 
-
 class AccentAudioControls:
     """ Class to provide audio control buttons
 

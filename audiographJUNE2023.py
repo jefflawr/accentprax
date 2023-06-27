@@ -385,6 +385,7 @@ class AudioGraph:
         graph_ax.plot(times, cent.T, label='Spectral centroid', color='w')
         self.spect_canvas.get_tk_widget().grid(row=5, column=1, sticky=tk.NSEW)
 
+
     def play_file(self):
         # open file and reset sonograph field if necessary
         if self.student_recording == True:

@@ -14,7 +14,6 @@ from database import AccentDatabase
 import queue
 import librosa
 
-
 class AudioGraph:
     """Class to play and graph audio file
     Attributes:
